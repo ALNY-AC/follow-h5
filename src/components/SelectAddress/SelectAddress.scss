@@ -1,0 +1,11 @@
+.address /deep/ {}
+
+.van-popup--bottom {
+    height: 80%;
+    background-color: #f6f6f6;
+    .right-popup {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+    }
+}

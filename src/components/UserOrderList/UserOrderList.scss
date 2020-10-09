@@ -1,0 +1,129 @@
+.user-order-list {
+    font-size: 14px;
+    font-family: '微软雅黑';
+    padding-bottom: 100px;
+    ;
+    * {
+        font-family: '微软雅黑';
+    }
+    .list {
+        padding-top: 8px;
+        .item {
+            background-color: #ffffff;
+            margin-bottom: 8px;
+            .header {
+                padding: 10px;
+                .type {
+                    background-color: rgb(250, 163, 32);
+                    border-radius: 3px;
+                    color: #fff;
+                    display: inline-block;
+                    height: 18px;
+                    width: 18px;
+                    text-align: center;
+                    font-size: 13px;
+                    vertical-align: middle;
+                    margin-right: 5px;
+                }
+                .time {
+                    vertical-align: middle;
+                    color: #888;
+                }
+                .state {
+                    vertical-align: middle;
+                    float: right;
+                    display: inline-block;
+                    font-size: 13px;
+                }
+            }
+            .body {
+                .goods-list {
+                    padding-bottom: 10px;
+                    .goods-item {
+                        position: relative;
+                        border-bottom: 1px solid #eee;
+                        margin: 10px;
+                        .goods-head {
+                            img {
+                                width: 70px;
+                                height: 70px;
+                                display: inline-block;
+                            }
+                        }
+                        .goods-info-box {
+                            position: absolute;
+                            top: 0;
+                            left: 73px;
+                            right: 73px;
+                            bottom: 0;
+                            .goods-info-title {
+                                display: block;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                display: -webkit-box;
+                                -webkit-line-clamp: 1;
+                                -webkit-box-orient: vertical;
+                                margin-bottom: 5px;
+                            }
+                            .goods-info-sku {
+                                color: #aaa;
+                            }
+                        }
+                        .goods-info-money {
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                            bottom: 0;
+                            text-align: right;
+                            .money {}
+                            .count {
+                                color: #aaa;
+                            }
+                            .user-money {
+                                .layuan {
+                                    margin-right: 3px;
+                                    &.layuan-1 {
+                                        font-weight: bold;
+                                        color: rgb(255, 153, 0);
+                                    }
+                                    &.layuan-2 {}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .footer {
+                text-align: right;
+                padding: 0 10px;
+                .info {
+                    .total {
+                        font-weight: bold;
+                        color: rgb(240, 57, 57);
+                    }
+                    .yf {
+                        font-size: 13px;
+                        color: #777;
+                    }
+                }
+                .btn-box {
+                    padding: 10px 0;
+                }
+            }
+        }
+    }
+}
+
+.btn-box /deep/ {
+    padding: 10px 0;
+    .van-button {
+        margin-right: 10px;
+        border-color: #777;
+    }
+}
+
+.pay-btn {
+    background-color: #f03939;
+    border: none;
+    color: #fff;
+}

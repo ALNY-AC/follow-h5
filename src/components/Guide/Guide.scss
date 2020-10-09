@@ -1,0 +1,60 @@
+.guide {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #ff0000;
+    z-index: 3000;
+    background-color: #242424;
+    .guide-page {
+        display: block;
+        img {
+            display: block;
+        }
+        &.swiper1 {
+            text-align: right;
+            img {
+                // width: 50%;
+                display: inline-block;
+            }
+        }
+        &.swiper2 {
+            position: absolute;
+            bottom: 0;
+            top: 0;
+            width: 100vw;
+            right: 0;
+            left: 0;
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+        }
+    }
+    .gallery-mask-box {
+        position: absolute;
+        z-index: 3;
+        width: 100vw;
+    }
+    .guide-mask {
+        position: relative;
+        height: 100vh;
+        width: 100%;
+        img {
+            max-width: 100%;
+            margin: 0 auto;
+            display: block;
+        }
+    }
+    .gallery-2 {
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        width: 100vw;
+        right: 0;
+        left: 0;
+    }
+    .s1 {}
+    .s2 {}
+    .s3 {}
+}

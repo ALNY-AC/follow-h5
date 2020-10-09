@@ -1,0 +1,30 @@
+.select-goods {
+    .goods-item {
+        margin-bottom: 10px;
+        padding: 10px;
+        background-color: #ffffff;
+        position: relative;
+        .goods-item-head {
+            display: inline-block;
+            img {
+                width: 70px;
+                height: 70px;
+                display: block;
+            }
+        }
+        .goods-item-title {
+            display: inline-block;
+            vertical-align: top;
+        }
+        .select-icon {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            text-align: center;
+            line-height: 30px;
+            width: 30px;
+            height: 30px;
+            font-size: 20px;
+        }
+    }
+}

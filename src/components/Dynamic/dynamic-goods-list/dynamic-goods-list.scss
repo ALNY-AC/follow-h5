@@ -1,0 +1,13 @@
+.dynamic-goods-list {
+    width: 100%;
+    min-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-bottom: 10px;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+    .dynamic-goods-list-body {
+        white-space: nowrap;
+    }
+}

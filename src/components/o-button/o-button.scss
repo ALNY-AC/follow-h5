@@ -1,0 +1,23 @@
+.o-button {
+    border: solid 1px #000;
+    line-height: 1;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #000;
+    user-select: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: inline-block;
+    &.o-btn-disabled {
+        background-color: #f6f6f6;
+        border: solid 1px #ddd;
+        color: #888;
+    }
+    &.o-btn-bg {
+        background-color: #000;
+        color: #fff;
+    }
+    &.o-btn-lg {
+        padding: 10px 20px;
+    }
+}

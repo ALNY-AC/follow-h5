@@ -1,0 +1,47 @@
+#Pay {
+    padding-top: 54px;
+}
+
+#Pay /deep/ {
+    .van-panel__header .van-cell__value {
+        color: #000;
+    }
+    .pay-info {
+        .van-panel__content {
+            padding: 5px 15px;
+        }
+    }
+    .van-radio__input {
+        float: right;
+    }
+    .van-radio__label {
+        margin-left: 0;
+    }
+    .zf-icon {
+        font-size: 20px;
+        &.ye {
+            width: 18px;
+            display: inline-block;
+            vertical-align: top;
+            position: relative;
+            top: -1px;
+            left: 1px;
+        }
+        &.zfb {
+            color: #00a3ee;
+        }
+        &.wx {
+            color: #44b549;
+        }
+    }
+}
+
+.fixed-btn {
+    position: fixed;
+    background-color: #EE2532;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    bottom: 0;
+}

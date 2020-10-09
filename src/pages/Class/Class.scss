@@ -1,0 +1,71 @@
+#Class {
+    box-sizing: border-box;
+    * {
+        box-sizing: border-box;
+        user-select: none;
+    }
+    position: relative;
+    height: 100vh;
+    .class-box {
+        .class-left-panel {
+            position: absolute;
+            top: 46px;
+            left: 0;
+            bottom: 0;
+            width: 20%;
+            overflow-y: auto;
+            white-space: nowrap;
+            .class-left-list {
+                .class-left-item {
+                    font-size: 14px;
+                    font-weight: 500;
+                    text-align: center;
+                    line-height: 1;
+                    padding: 17px 0;
+                    color: #858585;
+                    &.active {
+                        background-color: #ffffff;
+                        color: #000;
+                    }
+                }
+            }
+        }
+        .class-right-panel {
+            background-color: #ffffff;
+            position: absolute;
+            top: 46px;
+            bottom: 0;
+            right: 0;
+            left: 20%;
+            overflow-y: auto;
+            .class-right-body {
+                .class-right-title {
+                    color: #777;
+                    text-align: center;
+                    line-height: 1;
+                    padding-top: 10px;
+                    padding-bottom: 30px;
+                }
+                .van-col {}
+                .class-cube-item {
+                    text-align: center;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    max-width: 100%;
+                    .class-img {
+                        max-width: 80%;
+                        display: inline-block;
+                    }
+                    .class-title {
+                        font-size: 14px;
+                        display: block;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        max-width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

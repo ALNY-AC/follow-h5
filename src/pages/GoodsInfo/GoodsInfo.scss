@@ -1,0 +1,229 @@
+#GoodsInfo {
+    padding-bottom: 100px;
+}
+
+.swipe-item {
+    // height: 400px;
+}
+
+.z-money {
+    font-size: 15px;
+}
+
+.swipe-img {
+    width: 100%;
+    height: 10rem;
+    min-height: 10rem;
+    background-position: center center;
+    background-size: cover;
+    margin: 0 auto;
+    display: block;
+}
+
+.loading-box {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #f7f7f7;
+    z-index: 1000;
+    .loading-img {
+        max-width: 100%;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate3d(-50%, -50%, 0);
+    }
+    &.hide {
+        display: none;
+    }
+}
+
+.swipe-test {
+    min-width: 200px;
+    background-color: #dddddd;
+    img {
+        max-width: 100%;
+        display: block;
+    }
+}
+
+#GoodsInfo /deep/ {
+    .goods-info {
+        background-color: #ffffff;
+        width: 100%;
+        overflow: hidden;
+        .goods-info-body {
+            padding: 0;
+            margin: 0;
+            img {
+                max-width: 100%;
+                display: block;
+            }
+        }
+    }
+    .van-goods-action {
+        z-index: 2;
+    }
+}
+
+.goods-info-panel {
+    background-color: #ffffff;
+    margin-bottom: 8px;
+    .goods-info-panel-head {
+        .goods-title-box {
+            padding: 0 10px;
+            position: relative;
+            .goods-title {
+                font-size: 16px;
+                white-space: normal;
+                color: #000;
+                margin-right: 70px;
+                display: inline-block;
+            }
+            .collection {
+                &.ok {
+                    color: #EE2532;
+                }
+                width: 60px;
+                display: block;
+                text-align: center;
+                line-height: 15px;
+                font-size: 20px;
+                position: absolute;
+                right: 0;
+                top: 10px;
+                border-left: solid 1px #ddd;
+                .collection-title {
+                    font-size: 12px;
+                    display: block;
+                }
+            }
+        }
+        .sub-goods-title {
+            font-size: 13px;
+            padding: 5px 10px;
+            color: #EE2532;
+        }
+    }
+    .goods-price-panel {
+        padding: 5px 10px;
+        padding-top: 10px;
+        color: #000;
+        .goods-price {
+            font-size: 0;
+            * {
+                vertical-align: bottom;
+                display: inline-block;
+            }
+            .icon {
+                font-size: 13px;
+            }
+            .price {
+                font-size: 19px;
+            }
+            .line {
+                height: 20px;
+                width: 1px;
+                background-color: #ddd;
+                display: inline-block;
+                transform: rotateZ(24deg);
+                margin: 0 5px;
+                position: relative;
+                top: -3px;
+            }
+            .maid-icon {
+                font-size: 13px;
+                color: #EE2532;
+            }
+            .maid-price {
+                font-size: 19px;
+                color: #EE2532;
+                font-weight: bold;
+            }
+        }
+        .original-price {
+            color: #777;
+            font-size: 13px;
+        }
+    }
+}
+
+.goods-cell-group {
+    margin-bottom: 7px;
+}
+
+.goods-action {}
+
+.btn-bs {
+    background-color: #ffffff;
+    color: #000;
+    border-left: solid 1px #eee;
+    border-top: solid 1px #eee;
+}
+
+.btn-primary {
+    font-weight: bold;
+    background: linear-gradient(to right, #EF272F, #FE4802);
+}
+
+.indicators-row {
+    position: relative;
+    z-index: 1;
+    top: -35px;
+    .indicators {
+        border-radius: 25px 0 0 25px;
+        background-color: rgba($color: #000000, $alpha: 0.3);
+        position: absolute;
+        color: #fff;
+        right: 0;
+        line-height: 1;
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+}
+
+.gallery-1 {
+    z-index: 1;
+}
+
+.sw {
+    height: 200px;
+    background-color: #333;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    line-height: 200px;
+}
+
+.goods-info-label {
+    padding: 10px;
+    padding-left: 15px;
+    .label-item {
+        display: inline-block;
+        margin-right: 20px;
+        font-size: 12px;
+        .label-icon {
+            width: 2px;
+            height: 3px;
+            background-color: #EE2532;
+            border-radius: 25px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .label-title {
+            display: inline-block;
+            vertical-align: middle;
+            color: #888;
+        }
+    }
+}
+
+.van-nav-bar {}
+
+
+.disabledbtn{
+    color: #999 !important;
+    background-color: #e8e8e8 !important;
+}

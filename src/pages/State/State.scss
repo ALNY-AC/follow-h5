@@ -1,0 +1,52 @@
+#State {
+    margin-top: 46px;
+    padding: 0 0 30px;
+    text-align: center;
+    background: #FFF;
+    border-top: #e5e5e5 solid 1px;
+    .icon-box {
+        display: block; 
+        .icon {
+            margin-top: 30px;
+            img{
+                width: 16%;
+            }
+        }
+        .title {
+            font-size: 16px;
+            color: #1a2a35;
+            font-weight: bold;
+        }
+        .tool {
+            margin: 20px auto;
+            display: flex;
+            justify-content: center;
+            button{
+                margin: 0 10px;
+                border-radius: 4px;
+                width: 36%;
+                height: 32px;
+                &:nth-child(1){
+                     color: #666 ;
+                     border-color: #666 ;
+                 }
+                &:nth-child(2){
+                     color: #1a2a35 ;
+                     border-color: #1a2a35 ;
+                 }
+            }
+        }
+    }
+}
+
+.van-popup {
+    background-color: transparent !important;
+}
+
+.image-panel {
+    width: 90vw;
+    img {
+        max-width: 100%;
+        display: block;
+    }
+}

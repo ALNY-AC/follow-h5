@@ -1,0 +1,31 @@
+$size:50px;
+.o-fixed-btn {
+    position: fixed;
+    bottom: $size+5px;
+    right: 0;
+    left: 0;
+    height: $size;
+    line-height: $size;
+    border-top: solid 1px #ddd;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    .o-fixed-btn-body {
+        display: block;
+        padding: 0 10px;
+        white-space: nowrap;
+        .o-fixed-item {
+            position: relative;
+            display: inline-block;
+        }
+    }
+}
+
+.o-fixed-btn-enter-active,
+.o-fixed-btn-leave-active {
+    transition: all .3s;
+}
+
+.o-fixed-btn-enter,
+.o-fixed-btn-leave-to {
+    transform: translate3d(0, $size, 0);
+}

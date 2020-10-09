@@ -1,0 +1,62 @@
+#DynamicAdd {
+    padding: 50px 0;
+}
+
+$size:70px;
+.img-list {
+    font-size: 0;
+    padding: 10px;
+    .img-card {
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background-color: #dddddd;
+        position: relative;
+        margin-bottom: 15px;
+        float: left;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+        width: $size;
+        height: $size;
+    }
+}
+
+.add-img {
+    width: $size;
+    height: $size;
+    text-align: center;
+    padding: 0;
+    line-height: $size;
+    background-color: #ffffff;
+    border-radius: 3px;
+    border: solid 1px #ddd;
+    font-size: 15px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.del {
+    font-size: 20px;
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    color: rgb(235, 53, 53);
+}
+
+.select-goods {
+    width: 100vw;
+    background-color: #f6f6f6;
+    height: 100vh;
+    .select-goods-head {
+        padding: 10px;
+        border-bottom: solid 1px #ddd;
+        background-color: #fff;
+        margin-bottom: 10px;
+        line-height: 1;
+        .close {
+            font-size: 20px;
+        }
+    }
+    .select-goods-body {}
+}

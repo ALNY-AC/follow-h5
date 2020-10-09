@@ -1,0 +1,51 @@
+.o-label {
+    border: solid 1px #ddd;
+    font-size: 11px;
+    box-sizing: border-box;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    padding: 1px 2px;
+    line-height: 1;
+    &.o-label-red,
+    &.o-label-danger {
+        background-color: #F56C6C;
+        border-color: #F56C6C;
+        color: #fff;
+        &.o-label-outlined {
+            border-color: #F56C6C;
+            color: #F56C6C;
+        }
+    }
+    &.o-label-success {
+        background-color: #67C23A;
+        border-color: #67C23A;
+        color: #fff;
+        &.o-label-outlined {
+            border-color: #67C23A;
+            color: #67C23A;
+        }
+    }
+    &.o-label-warning {
+        background-color: #E6A23C;
+        border-color: #E6A23C;
+        color: #fff;
+        &.o-label-outlined {
+            border-color: #E6A23C;
+            color: #E6A23C;
+        }
+    }
+    &.o-label-blue {
+        background-color: #409EFF;
+        border-color: #409EFF;
+        color: #fff;
+        &.o-label-outlined {
+            border-color: #409EFF;
+            color: #409EFF;
+        }
+    }
+    &.o-label-outlined {
+        background-color: transparent;
+        color: #323232;
+    }
+}

@@ -1,0 +1,25 @@
+#BecomeVip {
+    padding-top: 46px;
+    .panel {
+        img {
+            max-width: 100%;
+            display: block;
+        }
+        .kt-btn-box {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            .kt-btn {
+                // background-color: #dbc492;
+                background: linear-gradient(to bottom, #dbc492, #a59062);
+                width: 100%;
+                display: inline-block;
+                padding: 10px 0;
+                font-size: 20px;
+                color: #fff;
+                box-shadow: 0 0 10px rgba($color: #000000, $alpha: 0.4);
+            }
+        }
+    }
+}

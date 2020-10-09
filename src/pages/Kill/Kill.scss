@@ -1,0 +1,22 @@
+#Kill /deep/{
+	background: #FFF;
+	.kill_banner{
+		width: 100%;
+		display: block;
+		position: relative;
+    	z-index: 99;
+	}
+	.van-tab--active {
+	    color: #343434 ;
+	    font-weight: bolder;
+	}
+	.van-tabs__line{
+    	background-color : #343434 ;
+	    width: 12% !important;
+		margin-left: 19%;
+		border-radius: 2px;
+		height: 3px ;
+	}
+
+
+}

@@ -1,0 +1,125 @@
+#ShoutPrice {
+    background-color: #ffffff;
+    .ShoutPriceTopImg{
+        width: 100%;
+        display: block;
+    }
+}
+
+.goods-card {
+    white-space: nowrap;
+    display: block;
+    margin-top: 0;
+    box-sizing: border-box;
+    border-bottom: solid 1px #f6f6f6;
+    margin: 0 5px;
+    padding: 20px 0;
+    * {
+        box-sizing: border-box;
+    }
+    &:before,
+    &:after {
+        content: " ";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+    .goods-head {
+        float: left;
+        display: inline-block;
+        vertical-align: top;
+        width: 3.7rem;
+        height: 3.7rem;
+        position: relative;
+        img {
+            max-width: 100%;
+            border-radius: 6.624px;
+        }
+        .is_blank{
+            background:rgba(0, 0, 0, 0.6);
+            color: #FFF;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            height: 0.8rem;
+            line-height: 0.8rem;
+            width: 1.8rem;
+            margin-top: -0.4rem;
+            margin-left: -0.9rem;
+            text-align: center;
+        }
+    }
+    .goods-info {
+        display: inline-block;
+        vertical-align: top;
+        width: 5.9rem;
+        overflow: hidden;
+        position: relative;
+        padding: 0 10px;
+        height: 3.7rem;
+        &>* {
+            overflow: hidden;
+        }
+        .goods-title {
+            text-overflow: ellipsis;
+            font-size: 0.4rem;
+            color: #232321;
+        }
+        .goods-sku-info {
+            text-overflow: ellipsis;
+            color: #666666;
+        }
+        .goods-price-info {
+            position: absolute;
+            bottom: 0;
+            .goods-origin-price {
+                color: #999999;
+                font-size: 0.24rem;
+            }
+            .goods-min-price {
+                .price-text{
+                    background: #FBEAE9;
+                    color: #FF4444;
+                    width: 1.5rem;
+                    height:0.6rem;
+                    line-height: 0.65rem;
+                    font-size: 0.32rem;
+                    text-align: center;
+                }
+                .price {
+                    color: #FF4444;
+                    font-size: 0.6rem;
+                    font-weight: bold;
+                }
+            }
+        }
+        .goods-btn {
+            position: absolute;
+            right: 0;
+            background-color: #FF4444;
+            width: 1.7rem;
+            height: 0.8rem;
+            line-height: 0.8rem;
+            bottom: 0;
+            color: #fff;
+            text-align: center;
+        }
+        .blank-btn{
+            background-color: #C8C8C8;
+            color: #fff;
+            position: absolute;
+            right: 0;
+            width: 1.7rem;
+            height: 0.8rem;
+            line-height: 0.8rem;
+            bottom: 0;
+            text-align: center;
+        }
+    }
+}
+.empty{
+    color: #777;
+    text-align: center;
+    padding: 10px;
+}

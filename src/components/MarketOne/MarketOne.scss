@@ -1,0 +1,19 @@
+#MarketOne {
+    background: #FFF;
+    padding: 15px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 3.8rem;
+    position: relative;
+    .MarketBox {
+        height: 100%;
+        width: 49%;
+        border: 1px solid #e8e9ea;
+        color: #1A2A35;
+        padding: 8px;
+        overflow: hidden;
+        display: block;
+        min-height: 3.8rem;
+    }
+}

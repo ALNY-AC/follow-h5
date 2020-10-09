@@ -1,0 +1,86 @@
+#UserCenter {
+    padding-bottom: 50px;
+    padding-top: 46px;
+}
+
+.van-hairline--bottom.van-nav-bar.van-nav-bar--fixed {
+    // background-color: #232321;
+    // color: #fff;
+    * {
+        // color: #fff;
+    }
+}
+
+.dq-money {
+    background-color: #ffffff;
+    margin-bottom: 8px;
+    padding: 10px 15px;
+    position: relative;
+    // border-radius: 8px;
+    // margin: 0 10px;
+    margin-bottom: 8px;
+    .dq-money-head {
+        display: inline-block;
+    }
+    .title {
+        color: #777;
+        padding: 10px 0;
+    }
+    .money {
+        color: #EE2532;
+        font-size: 25px;
+    }
+    .tool {
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+    }
+}
+
+#UserCenter /deep/ {
+    .user-head-info {
+        .user-name {
+            // color: #fff;
+        }
+    }
+    .user-order {
+        // margin-top: -20px;
+        z-index: 2;
+    }
+    .van-cell-group {
+        // border-radius: 8px;
+        // margin: 0 10px;
+        margin-bottom: 8px;
+        overflow: hidden;
+        .van-tag--danger {
+            background: #f44336;
+        }
+    }
+    .o-pull-head {
+        // background-color: #232321;
+        // color: #ddd;
+        i {
+            // background-color: #232321;
+        }
+        .o-pull-footer {
+            .title {
+                // color: #ddd;
+            }
+        }
+        .line {
+            // border-left: dotted 1px #ddd;
+        }
+    }
+    .van-pull-refresh__head {
+        // background-color: #232321;
+        // color: #ddd;
+    }
+}
+
+.fk {
+    width: 30px;
+    height: 30px;
+    transform: translateZ(45%);
+    background-color: #ffffff;
+}

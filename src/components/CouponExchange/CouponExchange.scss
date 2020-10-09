@@ -1,0 +1,28 @@
+#CouponExchange{
+  padding: 10px;
+  background: #F8F8F8;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  input{
+    border: none;
+    line-height: 14px;
+    height: 34px;
+    padding-left: 14px;
+    border-radius: 17px;
+    width: 100%;
+  }
+  button{
+    margin-left: 15px;
+    border:none;
+    width: 100px;
+    height: 34px;
+    border-radius: 17px;
+    background: #C8C8C8;
+    color: #fff;
+    font-weight: 300;
+  }
+  .active{
+    background: #E44B00;
+  }
+}

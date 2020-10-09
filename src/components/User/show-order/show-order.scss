@@ -1,0 +1,48 @@
+.show-order {
+    box-sizing: border-box;
+    * {
+        box-sizing: border-box;
+    }
+    font-size: 0;
+    background-color: #ffffff;
+    border-bottom: solid 1px #eee;
+    overflow: hidden;
+    margin-bottom: 8px;
+    position: relative;
+    z-index: 1;
+    .show-order-head {
+        font-size: 14px;
+        display: block;
+        padding: 10px 20px;
+        border-top: solid 1px #eee;
+        .show-order-title {
+            display: inline-block;
+            font-weight: bold;
+        }
+        .tool {
+            * {
+                vertical-align: middle;
+                fill: #777;
+            }
+        }
+    }
+    .order-nav-list {
+        border-top: solid 1px #eee;
+        .order-nav-list-item {
+            padding: 20px 0;
+            position: relative;
+            width: 25%;
+            font-size: 14px;
+            color: #4d4d4d;
+            text-align: center;
+            vertical-align: top;
+            display: inline-block;
+            .nav-list-icon {
+                margin-bottom: 3px;
+                padding-top: 0;
+                font-size: 26px;
+                line-height: 1;
+            }
+        }
+    }
+}

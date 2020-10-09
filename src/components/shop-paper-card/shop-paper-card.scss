@@ -1,0 +1,13 @@
+.shop-paper-card {
+    height: 70px;
+    width: 150px;
+    background-color: #999;
+    display: inline-block;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center center;
+    margin-right: 10px;
+    &:last-child {
+        margin-right: 0;
+    }
+}

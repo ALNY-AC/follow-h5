@@ -1,0 +1,84 @@
+.dynamic-card {
+    background-color: #fff;
+    display: block;
+    box-sizing: border-box; // padding: 10px;
+    font-size: 16px;
+    line-height: 1.222;
+    padding-top: 10px;
+    border-top: solid 1px #ddd;
+    margin-bottom: 15px;
+    position: relative;
+    * {
+        box-sizing: border-box;
+    }
+    .dynamic-card-head {
+        position: relative;
+        padding: 0 0.3rem 0 0.3rem;
+        font-size: 14px;
+        .dynamic-card-user-info {
+            white-space: nowrap;
+            padding-bottom: 5px;
+            .user-head {
+                $size: 40px;
+                display: inline-block;
+                vertical-align: middle;
+                img {
+                    display: inline-block;
+                    width: $size;
+                    height: $size;
+                    border-radius: 100%;
+                }
+            }
+            .user-info {
+                vertical-align: middle;
+                display: inline-block;
+                .user-title {}
+            }
+        }
+        .dynamic-card-label-list {
+            padding-bottom: 5px;
+        }
+        .dynamic-card-head-tool {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            .tool-item {
+                display: inline-block;
+                padding: 0 5px;
+            }
+        }
+    }
+    .dynamic-card-body {
+        padding: 0 0.3rem 0 0.3rem;
+        padding-bottom: 15px;
+        .dynamic-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        .dynamic-content {
+            color: #4d4d4d;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+        .dynamic-img-list {
+            position: relative;
+            margin-bottom: 15px;
+            .img-list-item {
+                float: left;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                display: block;
+                width: 3.013333333333333rem;
+                height: 3.013333333333333rem;
+                margin: 0.12rem 0.12rem 0 0;
+            }
+        }
+    }
+    .dynamic-card-footer {}
+    .add-time {
+        font-size: 14px;
+        color: #777;
+    }
+}

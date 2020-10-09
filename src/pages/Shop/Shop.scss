@@ -1,0 +1,48 @@
+#Shop {
+    padding-bottom: 50px;
+    padding-top: 46px;
+    .box {
+        text-align: center;
+        padding: 10px 0;
+        background-color: #ffffff;
+        margin-bottom: 8px;
+        .item {
+            border-right: solid 1px #ddd;
+            .logo {
+                display: inline-block;
+                width: 40px;
+                height: 40px;
+                border-radius: 100%;
+                background-color: #ffefaf;
+                vertical-align: middle;
+                overflow: hidden;
+                img {
+                    display: block;
+                    position: relative;
+                    width: 40px;
+                    margin: 0 auto;
+                }
+            }
+            .logo-1 {
+                img {
+                    top: 2px;
+                    width: 36px;
+                }
+            }
+            .title {
+                display: inline-block;
+                vertical-align: middle;
+                color: #BE9B6F;
+            }
+        }
+    }
+    .tab-nav{   
+        background: #FFF;
+        margin:10px 0;
+        text-align: center;
+        padding-top: 5px;
+        .shop_icon{
+            width: 35%;
+        }
+    }
+}

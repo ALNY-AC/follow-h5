@@ -1,0 +1,22 @@
+.banner {}
+
+.swipe-item-img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.banner /deep/ {
+    .swiper-pagination-bullet {
+        border-radius: 3px;
+        transition: all 0.3s; // opacity: 1;
+        background: #fff;
+        width: 3px;
+        height: 3px;
+    }
+    .swiper-pagination-bullet-active {
+        background: #fff;
+        width: 15px;
+        height: 3px;
+    }
+}

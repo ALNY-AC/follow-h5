@@ -1,0 +1,44 @@
+#Conf {
+    padding-top: 52px;
+    .user-head {
+        $size: 30px;
+        width: $size;
+        height: $size;
+        border-radius: 5px;
+    }
+}
+
+.mu-list {
+    background-color: #ffffff;
+    padding: 0;
+}
+
+#Conf /deep/ {
+    .mu-item-wrapper {
+        background-color: #ffffff;
+    }
+}
+
+.version {
+    white-space: nowrap;
+    * {
+        vertical-align: middle;
+        display: inline-block;
+    }
+}
+
+.sin-out {
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+    width: 100%;
+}
+
+.mu-divider {
+    margin-left: 10px;
+    border: none;
+    background-color: #f0f0f0;
+    &.no-left {
+        margin: 0;
+    }
+}

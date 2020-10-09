@@ -1,0 +1,92 @@
+// $color: #2c3e50;
+.router-view {
+    margin: 0 auto;
+}
+
+/*// 页面切换动画*/
+
+$trans:0.3s;
+.slide-left-enter-active,
+.slide-left-leave-active {
+    transition: all $trans;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.slide-right-enter-active,
+.slide-right-leave-active {
+    transition: all $trans;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.slide-right-enter {
+    z-index: 1;
+    transform: translate3D(-100%, 0, 0);
+}
+
+.slide-right-leave-active {
+    transform: translate3D(100%, 0, 0);
+}
+
+.slide-left-enter {
+    transform: translate3D(100%, 0, 0);
+}
+
+.slide-left-leave-active {
+    z-index: 1;
+    transform: translate3D(-100%, 0, 0);
+}
+
+.slide-bottom-enter-active {
+    transition: all $trans;
+}
+
+.slide-bottom-leave-active {
+    transition: all $trans;
+}
+
+.slide-bottom-enter,
+.slide-bottom-leave-to {
+    transform: translateY(100%);
+}
+
+// 导航栏样式
+$style-color:#16242D;
+.van-tabbar {
+    background-color: #ffffff;
+    z-index: 999999999999999999;
+}
+
+.van-tabbar::after {
+    border: none !important;
+}
+
+.van-tabbar-item {
+    color: #999;
+    user-select: none;
+    position: relative;
+
+    .shop_badge /deep/{
+        right: 15px !important;
+    }
+}
+
+.van-tabbar-item--active {
+    color: #152B36;
+}
+
+.van-tabbar--fixed {
+    z-index: 200 !important;
+}
+

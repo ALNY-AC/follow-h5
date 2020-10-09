@@ -1,0 +1,15 @@
+.CountDown{
+	display: flex;
+	align-items: center;
+	font-size: 12px;
+	&-num{
+		background: #1A2A35;
+		color: #FFF;
+		padding: 2px 4px 1px;
+		border-radius: 4px;
+	}
+	&-margin{
+		margin: 0 2px;
+		font-weight: bold;
+	}
+}

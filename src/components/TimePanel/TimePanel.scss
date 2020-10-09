@@ -1,0 +1,24 @@
+.time-panel {
+    background-color: #ffffff;
+    margin-bottom: 8px;
+    .time-header-title {
+        position: relative;
+        line-height: 1;
+        padding: 10px 0;
+        padding-left: 23px;
+        color: #343434;
+        background-color: #ffffff;
+        width: 100%;
+        .line {
+            position: absolute;
+            background-color: #D02C51;
+            border-radius: 50px;
+            width: 2px;
+            top: 10px;
+            bottom: 10px;
+            left: 10px;
+        }
+        font-size: 14px;
+    }
+    .time-body {}
+}

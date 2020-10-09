@@ -1,0 +1,208 @@
+.goods-card {
+    display: block;
+    box-sizing: border-box;
+    background-color: #fefefe;
+    font-size: 0;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    * {
+        box-sizing: border-box;
+    }
+    .line {
+        height: 15px;
+        width: 1px;
+        background-color: #ddd;
+        display: inline-block;
+        transform: rotateZ(24deg);
+        margin: 0 5px;
+        position: relative;
+        top: -3px;
+    }
+    .goods-money-box {
+        font-size: 15px;
+        display: block;
+        padding: 10px 0;
+        position: relative;
+        .goods-money {
+            height: 15px;
+            vertical-align: bottom;
+            position: relative;
+        }
+        .line {
+            vertical-align: bottom;
+        }
+        .vip-money-box {
+            color: #EE2532;
+            height: 15px;
+            vertical-align: bottom;
+            .vip-money-title {
+                position: relative;
+                font-size: 11px;
+                vertical-align: bottom;
+                top: -2px;
+            }
+            .vip-money {
+                font-size: 17px;
+                vertical-align: bottom;
+            }
+        }
+    }
+    .goods-card-model {
+        padding-top: 0;
+        border-radius: 5px;
+        line-height: 1;
+        .goods-card-body {
+            background-color: #fefefe;
+            border-radius: 5px;
+        }
+        .goods-head {
+            min-height: 170px;
+            background-size: cover;
+            background-position: center center;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            position: relative;
+            .mask {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                left: 0;
+                background-color: transparent;
+            }
+            img {
+                max-width: 100%;
+                display: block;
+                margin: 0 auto;
+                border-radius: 5px;
+            }
+        }
+        .goods-title {
+            margin-bottom: 10px;
+            line-height: 1;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            font-size: 16px;
+            font-weight: 500;
+        }
+        .goods-info {
+            margin-bottom: 10px;
+            color: #777;
+        }
+        .goods-label {
+            margin-bottom: 10px;
+            * {
+                vertical-align: top;
+            }
+        }
+        .goods-footer {
+            font-size: 16px;
+            line-height: 1;
+            .goods-money {
+                color: #000;
+                vertical-align: middle;
+                display: inline-block;
+            }
+            .tool {
+                .tool-item {
+                    font-size: 20px;
+                    display: inline-block;
+                    color: #343434;
+                    font-weight: bold;
+                    padding: 10px;
+                }
+            }
+        }
+    }
+    .goods-label {
+        .label {
+            margin-right: 3px;
+        }
+    }
+    .z-money-box {
+        color: #EE2532;
+        .title {
+            vertical-align: middle;
+            font-size: 11px;
+        }
+        .value {
+            vertical-align: middle;
+            font-weight: 500;
+            font-size: 15px;
+        }
+    }
+    .goods-money {
+        * {
+            display: inline-block;
+        }
+    }
+    .goods-list-model {
+        white-space: nowrap;
+        box-sizing: border-box;
+        padding-left: 0.2rem;
+        padding-right: 0.2rem;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        border-bottom: 1px solid #f6f6f6;
+        * {
+            box-sizing: border-box;
+        }
+        .goods-head {
+            display: inline-block;
+            width: 2.2rem;
+            height: 2.2rem;
+            background-size: cover;
+            background-position: center center;
+            vertical-align: top;
+        }
+        .goosd-info-box {
+            vertical-align: top;
+            display: inline-block;
+            width: 7.7rem;
+            line-height: 1;
+            padding-left: 0.2rem;
+            padding-right: 0.2rem;
+            .goods-title {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                font-size: 15px;
+                font-weight: 500;
+                margin-bottom: 8px;
+            }
+            .goods-info {
+                color: #777;
+                font-size: 12px;
+                margin-bottom: 8px;
+            }
+            .goods-label {}
+            .goods-footer {
+                font-size: 0;
+                white-space: normal;
+                margin-top: 10px;
+                .goods-stock {
+                    display: inline-block;
+                    color: #bbbbbb;
+                    width: 30%;
+                    font-size: 12px;
+                    vertical-align: middle;
+                }
+                .goods-card-tool {
+                    text-align: right;
+                    display: inline-block;
+                    vertical-align: middle;
+                    font-size: 20px;
+                    width: 70%;
+                    padding-right: 10px;
+                    .goods-card-tool-item {
+                        display: inline-block;
+                        color: #343434;
+                        font-weight: bold;
+                        padding: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

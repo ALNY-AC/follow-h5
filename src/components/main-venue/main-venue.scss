@@ -1,0 +1,24 @@
+.main-venue {
+    background-color: #eee;
+    min-height: 150px;
+    position: relative;
+    img {
+        max-width: 100%;
+        display: block;
+    }
+    .mask {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background-color: transparent;
+    }
+    .main-venue-close {
+        height: 150px;
+        background-color: #fff;
+        img {
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,130 @@
+{
+    "res": 1,
+    "msg": {
+        "goods_id": "商品id",
+        "goods_title": "商品标题",
+        "goods_banner": "商品的banner",
+        "sub_title": "副标题",
+        "freight_id": "运费模板的id",
+        "is_up": "是否上架中",
+        "goods_class": "商品的分类",
+        "sort": "排序",
+        "is_cross_border": "--",
+        "goods_content": "商品的详情页面",
+        "is_unique": "--",
+        "add_time": "添加时间",
+        "edit_time": "最后编辑时间",
+        "goods_head": "商品的首图",
+        "img_list": [
+            {
+                "src": "商品list的其中一个"
+            }
+        ],
+        "sku": [
+            {
+                "goods_id": "商品的id",
+                "sku_id": "sku的id",
+                "img_url": "图片的地址",
+                "id": "前端用id",
+                "price": "价格",
+                "s1": "规格1",
+                "s2": "规格2",
+                "s3": "规格3",
+                "stock_num": "库存",
+                "purchase_price": "",
+                "earn_price": "佣金",
+                "activity_price": "活动时库存",
+                "activity_earn_price": "活动时佣金",
+                "sales_volume": "",
+                "original_price": "原价"
+            }
+        ],
+        "tree": [
+            {
+                "sku_tree_id": "",
+                "k": "",
+                "k_s": "s1",
+                "v": [
+                    {
+                        "v_id": "",
+                        "goods_id": "",
+                        "sku_tree_id": "",
+                        "id": "",
+                        "name": "",
+                        "img_url": "",
+                        "add_time": "",
+                        "edit_time": ""
+                    }
+                ]
+            },
+            {
+                "sku_tree_id": "",
+                "k": "",
+                "k_s": "",
+                "v": [
+                    {
+                        "v_id": "",
+                        "goods_id": "",
+                        "sku_tree_id": "",
+                        "id": "",
+                        "name": "",
+                        "img_url": "",
+                        "add_time": "",
+                        "edit_time": ""
+                    }
+                ]
+            }
+        ],
+        "class": {
+            "class_id": "",
+            "super_id": "",
+            "class_title": "\u7f8e\u5bb9\u5de5\u5177",
+            "img": "Public\/Upload\/classImg\/2018-05-04\/5aebe717338ce.jpg",
+            "sort": "10",
+            "add_time": "1525399880",
+            "edit_time": "1525409696",
+            "super": {
+                "class_id": "caf6f8f64d8b0d7af81299d0efeee3bb",
+                "super_id": null,
+                "class_title": "\u4e2a\u4eba\u62a4\u7406",
+                "img": "Public\/Upload\/classImg\/2018-05-04\/5aebe818c2d8a.jpg",
+                "sort": "1",
+                "add_time": "1525339075",
+                "edit_time": "1533915104"
+            }
+        },
+        "goodsLabel": [
+            {
+                "type": 1,
+                "label": "\u7279\u5356"
+            }
+        ],
+        "freight": {
+            "freight_id": "6e2371ffe2bab2390629b63dd3d68fad",
+            "freight_name": "\u6d3b\u52a89\u57579\u6a21\u677f",
+            "freight_type": "2",
+            "value_type": "1",
+            "add_time": "1533037168",
+            "edit_time": "1535772916",
+            "areas": [
+                {
+                    "freight_area_id": "8d14a0facdc838e0581e61947c0912cd",
+                    "freight_id": "6e2371ffe2bab2390629b63dd3d68fad",
+                    "area": "[{\"label\":\"\u5317\u4eac\u5e02\",\"value\":\"110000\"},{\"label\":\"\u5929\u6d25\u5e02\",\"value\":\"120000\"},{\"label\":\"\u6cb3\u5317\u7701\",\"value\":\"130000\"},{\"label\":\"\u5c71\u897f\u7701\",\"value\":\"140000\"},{\"label\":\"\u5185\u8499\u53e4\u81ea\u6cbb\u533a\",\"value\":\"150000\"},{\"label\":\"\u8fbd\u5b81\u7701\",\"value\":\"210000\"},{\"label\":\"\u5409\u6797\u7701\",\"value\":\"220000\"},{\"label\":\"\u9ed1\u9f99\u6c5f\u7701\",\"value\":\"230000\"},{\"label\":\"\u4e0a\u6d77\u5e02\",\"value\":\"310000\"},{\"label\":\"\u6c5f\u82cf\u7701\",\"value\":\"320000\"},{\"label\":\"\u6d59\u6c5f\u7701\",\"value\":\"330000\"},{\"label\":\"\u5b89\u5fbd\u7701\",\"value\":\"340000\"},{\"label\":\"\u798f\u5efa\u7701\",\"value\":\"350000\"},{\"label\":\"\u6c5f\u897f\u7701\",\"value\":\"360000\"},{\"label\":\"\u5c71\u4e1c\u7701\",\"value\":\"370000\"},{\"label\":\"\u6cb3\u5357\u7701\",\"value\":\"410000\"},{\"label\":\"\u6e56\u5317\u7701\",\"value\":\"420000\"},{\"label\":\"\u6e56\u5357\u7701\",\"value\":\"430000\"},{\"label\":\"\u5e7f\u4e1c\u7701\",\"value\":\"440000\"},{\"label\":\"\u5e7f\u897f\u58ee\u65cf\u81ea\u6cbb\u533a\",\"value\":\"450000\"},{\"label\":\"\u6d77\u5357\u7701\",\"value\":\"460000\"},{\"label\":\"\u91cd\u5e86\u5e02\",\"value\":\"500000\"},{\"label\":\"\u56db\u5ddd\u7701\",\"value\":\"510000\"},{\"label\":\"\u8d35\u5dde\u7701\",\"value\":\"520000\"},{\"label\":\"\u4e91\u5357\u7701\",\"value\":\"530000\"}]",
+                    "first": "1",
+                    "first_price": "9.90",
+                    "continued": "0",
+                    "continued_price": "0.00",
+                    "add_time": "2018-09-01 11:35:16",
+                    "edit_time": "2018-09-01 11:35:16"
+                }
+            ]
+        },
+        "is_time": true,
+        "test": "\u6628\u5929",
+        "start_time": "时间轴开始时间",
+        "end_time": "时间轴结束时间",
+        "not_time": false,
+        "activity_time": "1536030000"
+    }
+}

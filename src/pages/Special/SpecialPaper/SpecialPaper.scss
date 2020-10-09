@@ -1,0 +1,39 @@
+#SpecialPaper {
+    background-color: #ffffff;
+    .bar {
+        margin-bottom: 30px;
+    }
+    .paper-card {
+        padding: 0 10px;
+        background-color: transparent;
+        margin-bottom: 10px;
+        .paper-body {
+            background-color: #ffffff;
+            border-radius: 4px;
+            padding-bottom: 15px;
+            .paper-head {
+                margin-bottom: 5px;
+                display: block;
+                margin: 0 auto;
+                background-size: cover;
+                background-position: center center;
+                height: 198px;
+            }
+            .paper-title {
+                font-size: 16px;
+                padding: 5px 0;
+            }
+            .paper-info {
+                font-size: 13px;
+                color: #777;
+                padding: 0 0;
+            }
+        }
+    }
+}
+.empty {
+  padding: 10px 0;
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+}

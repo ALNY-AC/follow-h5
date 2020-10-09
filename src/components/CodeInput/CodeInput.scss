@@ -1,0 +1,62 @@
+.code-input {
+    background-color: #ffffff;
+    width: 100vw;
+    height: 100vh;
+    .code-input-panel {
+        padding: 0 35px;
+        padding-top: 75px;
+        .code-input-header {
+            .title {
+                font-size: 23px;
+                color: #444;
+                line-height: 1;
+                padding-bottom: 20px;
+            }
+            .message {
+                // letter-spacing: 1px;
+                color: #777;
+                font-size: 16px;
+                line-height: 2;
+            }
+        }
+        .input-panel {
+            margin-top: 80px;
+            white-space: nowrap;
+            .code-body {
+                white-space: nowrap;
+                padding: 20px;
+                font-size: 0;
+                text-align: center;
+                margin: 0 auto;
+                display: block;
+                .code-input-box {
+                    display: inline-block;
+                    padding: 0 10px;
+                }
+                .s-code-input {
+                    font-size: 16px;
+                    border-radius: 3px;
+                    display: block;
+                    border: solid 1px #ddd;
+                    margin: 0 auto;
+                    color: #777;
+                    line-height: 40px;
+                    height: 40px;
+                    padding: 0 5px;
+                }
+            }
+            .info-box {
+                text-align: center;
+                font-size: 11px;
+                color: #777;
+            }
+        }
+    }
+    .cancel-box {
+        position: fixed;
+        right: 35px;
+        bottom: 35px;
+        text-align: right;
+        font-size: 11px;
+    }
+}

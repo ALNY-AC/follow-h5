@@ -1,0 +1,88 @@
+.kill_active_goods_card{
+	padding-bottom: 20px;
+	background: #FFF;
+	&_img{
+		position: relative;
+		height: 100%;
+		&_info{
+			width: 100%;
+			border-radius: 4px;
+		}
+		&_icon{
+			position: absolute;
+			top: 0;
+			width: 100%;
+			height:100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			img{
+				width: 36%
+
+			}
+		}
+	}
+	&_box{
+		line-height: 22px;
+		&_title{
+			color: #333;
+			font-size: 15px;
+		}
+		&_info{
+			color: #666;
+			font-size: 12px;
+		}
+		&_money{
+		    padding: 8px 0 2px;
+			&_new{
+				color: #EB544D;
+				font-size: 21px;
+				margin-right: 5px;
+			}
+			&_old{
+				color: #666;
+				font-size: 12px;
+			}
+		}
+		&_bottom{
+			display: flex;
+			justify-content: space-between;
+			&_left{
+				width: 60%;
+				&_progress{
+					padding-top: 5px;
+				}
+				&_num{
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					font-size: 12px;
+				    padding-top: 5px;
+					&_sold{
+						color: #666;
+					}
+					&_surplus{
+						color: #EB544D;
+					}
+				}
+			}
+			&_right{
+				&_btn{
+					background: #EB544D;
+					color:#FFF;
+					border: 0;
+					border-radius: 5px;
+				    padding: 5px 14px;
+				}
+				&_btn_false{
+					background: #c8c8c8;
+					color:#FFF;
+					border: 0;
+					border-radius: 5px;
+				    padding: 5px 14px;
+				    
+				}
+			}
+		}
+	}
+}

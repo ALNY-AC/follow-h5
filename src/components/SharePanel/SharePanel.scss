@@ -1,0 +1,177 @@
+.share-panel {
+    background-color: #fff;
+    .share-panel-header {
+        .share-panel-title {
+            color: #EE2532;
+            font-size: 20px;
+            text-align: center;
+            line-height: 1;
+            padding: 20px 0;
+        }
+        .share-panel-sub-title {
+            padding-top: 0;
+            padding: 0 50px;
+            margin-bottom: 30px;
+            color: #666;
+            text-align: center;
+        }
+    }
+    .share-panel-body {
+        .share-icon-box {
+            $size: 35px;
+            position: relative;
+            text-align: center;
+            margin-bottom: 30px;
+            .share-icon {
+                width: $size;
+                height: $size;
+                line-height: $size;
+                display: block;
+                background-color: #f8af12;
+                border-radius: 100%;
+                color: #fff;
+                margin: 0 auto;
+                margin-bottom: 8px;
+                position: relative;
+                z-index: 2;
+                font-size: 16px;
+            }
+            .share-icon-shadow {
+                position: absolute;
+                z-index: 1;
+                bottom: 0;
+                width: 5px;
+                height: 2px;
+                border-radius: 100%;
+                left: 50%;
+                top: 14px;
+                transform: translate3d(-50%, 0, 0);
+            }
+            $alpha:0.8;
+            $shadow_size:10px;
+            $shadow_y:10px;
+            $shadow_ks:20px;
+            &.weixin {
+                .share-icon {
+                    background-color: #69ce4e;
+                }
+                .share-icon-shadow {
+                    box-shadow: 0px $shadow_y $shadow_ks $shadow_size rgba($color: #69ce4e, $alpha: $alpha);
+                }
+            }
+            &.qq {
+                // #55B6EB
+                .share-icon {
+                    background-color: #55B6EB;
+                }
+                .share-icon-shadow {
+                    box-shadow: 0px $shadow_y $shadow_ks $shadow_size rgba($color: #55B6EB, $alpha: $alpha);
+                }
+            }
+            &.weibo {
+                // #FF8248
+                .share-icon {
+                    background-color: #FF8248;
+                }
+                .share-icon-shadow {
+                    box-shadow: 0px $shadow_y $shadow_ks $shadow_size rgba($color: #FF8248, $alpha: $alpha);
+                }
+            }
+            &.qrcode {
+                // #EE2532
+                .share-icon {
+                    background-color: #EE2532;
+                }
+                .share-icon-shadow {
+                    box-shadow: 0px $shadow_y $shadow_ks $shadow_size rgba($color: #EE2532, $alpha: $alpha);
+                }
+            }
+            &.link {
+                // #6E8DB9
+                .share-icon {
+                    background-color: #6E8DB9;
+                }
+                .share-icon-shadow {
+                    box-shadow: 0px $shadow_y $shadow_ks $shadow_size rgba($color: #6E8DB9, $alpha: $alpha);
+                }
+            }
+            .share-title {
+                color: #666;
+            }
+        }
+    }
+    .share-panel-footer {
+        text-align: center;
+        position: relative;
+        .close-icon {
+            display: inline-block;
+            color: #777;
+            .icon {
+                font-size: 30px;
+            }
+        }
+    }
+}
+
+.van-popup {
+    background-color: transparent !important;
+}
+
+.image-panel {
+    z-index: 7;
+    position: relative;
+    display: block;
+    width: 80vw;
+    img {
+        display: block;
+        max-width: 100%;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .footer-info {
+        text-align: center;
+        font-size: 16px;
+        color: #fff;
+        padding-top: 10px;
+    }
+}
+
+.footer-tool {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    padding-top: 10px;
+    .tool-item {
+        margin-right: 5px;
+        text-align: center;
+        .tool-item-icon {
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 100%;
+            display: inline-block;
+            &.down {
+                background-color: #f6f6f6;
+                color: #343434;
+            }
+            &.weixin {
+                color: #fff;
+                background-color: #69ce4e;
+            }
+            &.qq {
+                color: #fff;
+                background-color: #55B6EB;
+            }
+            &.weibo {
+                color: #fff;
+                background-color: #FF8248;
+            }
+        }
+        .title {
+            margin-top: 8px;
+            display: block;
+            font-size: 11px;
+        }
+    }
+}

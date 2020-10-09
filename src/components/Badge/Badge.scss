@@ -1,0 +1,17 @@
+.Badge{
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: normal;
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0 6px;
+    min-width: 18px;
+    line-height: 18px;
+    border-radius: 9px;
+    background-color: #f44;
+}

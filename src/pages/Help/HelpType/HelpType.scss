@@ -1,0 +1,55 @@
+#HelpType {
+    padding: 50px 0;
+    .help-body {
+        background-color: #ffffff;
+        .help-class-row {
+            border-bottom: solid 1px #f6f6f6;
+            padding: 10px 0;
+            padding-left: 10px;
+            .help-class-item {
+                white-space: nowrap;
+                * {
+                    vertical-align: middle;
+                }
+                .icon {
+                    display: inline-block;
+                    font-size: 25px;
+                    margin-right: 5px;
+                }
+                .title {
+                  padding-top: 5px;
+                    font-size: 17px;
+                    display: inline-block;
+                    font-weight: lighter;
+                    color: #666;
+                }
+            }
+        }
+    }
+    .zxff {
+        text-align: center;
+        background-color: #ffffff;
+        margin-top: 20px;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        border-top: solid 1px #ddd;
+        .icon {
+            font-size: 22px;
+            line-height: 22px;
+            padding: 5px 0 0 0;
+            color: #666;
+        }
+        .title {
+            color:#666;
+            font-size: 12px;
+            padding-bottom: 2px;
+        }
+    }
+}
+.common-problems{
+  color: #afafaf;
+  font-size: 15px;
+  font-weight: 300
+}

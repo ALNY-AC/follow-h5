@@ -1,0 +1,20 @@
+$size:1rem;
+.special-small {
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    box-sizing: border-box;
+    vertical-align: top;
+    width: 100%;
+    text-align: center;
+    .icon {
+        width: $size;
+        height: $size;
+    }
+    .special-small-title {
+        white-space: normal;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 4px;
+    }
+}

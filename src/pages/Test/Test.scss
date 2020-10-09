@@ -1,0 +1,33 @@
+#Test {
+    padding-top: 50px;
+}
+
+.code-info {
+    font-size: 12px;
+    padding: 10px;
+    font-family: "微软雅黑";
+    line-height: 1.5;
+    overflow: auto;
+    overflow: hidden;
+    white-space: normal;
+    word-wrap: break-word;
+    word-break: break-all;
+    background-color: #383838;
+    border-radius: 5px;
+    box-shadow: 0 1px 10px rgba($color: #000000, $alpha: 0.5);
+    margin-bottom: 10px;
+    display: block;
+    .code-info-item {
+        padding: 8px 0;
+        color: #ff0;
+        border-bottom: solid 1px #303030;
+        .key {
+            display: inline-block;
+            color: #f00;
+            letter-spacing: 1px;
+        }
+        .value {
+            color: #ddd;
+        }
+    }
+}

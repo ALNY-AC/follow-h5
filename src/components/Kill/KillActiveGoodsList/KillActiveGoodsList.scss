@@ -1,0 +1,25 @@
+.kill-active-goods-list /deep/{
+	.list-top{
+		text-align: center;
+		padding: 20px 0;
+		.time{
+			display:inline-flex;
+			align-items: center;
+			font-size: 12px;
+			.CountDown-num{
+				color:  #FFFF00 ;
+			}
+			
+		}
+	}
+	.van-list{
+		padding: 0 10px;
+	}
+	.empty{
+		color: #777;
+		text-align: center;
+		padding: 10px;
+	}
+}
+
+	

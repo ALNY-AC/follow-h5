@@ -1,0 +1,42 @@
+#DrawMoney {
+    .empty {
+        text-align: center;
+        padding: 10px 0;
+    }
+    .list {
+        padding-top: 8px;
+        .item {
+            background-color: #ffffff;
+            margin-bottom: 8px;
+            padding: 10px;
+            .header {
+                color: #777777;
+                font-size: 14px;
+            }
+            .money-box {
+                color: #666;
+                padding: 10px 0;
+                .icon {
+                    font-size: 15px;
+                    font-weight: bold;
+                    display: inline-block;
+                    vertical-align: bottom;
+                }
+                .money {
+                    font-size: 20px;
+                    font-weight: bold;
+                    display: inline-block;
+                    vertical-align: bottom;
+                }
+                .state {
+                    float: right;
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+            }
+            .time {
+                color: #777;
+            }
+        }
+    }
+}

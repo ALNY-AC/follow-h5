@@ -1,0 +1,43 @@
+.user-head-info {
+    display: block;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    color: #343434;
+    font-size: 14px; // background-color: #232321;
+    background-color: #ffffff;
+    &.no-back {
+        background: none;
+        background-color: #ffffff;
+        color: #333;
+        .user-info-pabel {
+            padding: 10px 20px;
+        }
+    }
+    .user-info-pabel {
+        display: block;
+        padding: 10px 20px;
+        padding-bottom: 30px;
+        .user-info-head {
+            display: inline-block;
+            vertical-align: top;
+            img {
+                $size: 50px;
+                width: $size;
+                height: $size;
+                border-radius: 100%;
+            }
+            .no-head {
+                $size: auto;
+                width: $size;
+                height: $size;
+                border-radius: 0;
+            }
+        }
+        .user-info-name {
+            display: inline-block;
+            vertical-align: top;
+            .user-name {}
+        }
+    }
+}

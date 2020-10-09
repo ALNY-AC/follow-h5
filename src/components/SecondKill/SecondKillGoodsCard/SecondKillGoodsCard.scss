@@ -1,0 +1,99 @@
+.second-kill-goods-card {
+    font-size: 0;
+    box-sizing: border-box;
+    * {
+        box-sizing: border-box;
+    }
+    padding: 5px;
+    background-color: #fff;
+    margin: 8px 0;
+    .goods-header {
+        width: 35%;
+        font-size: 14px;
+        display: inline-block;
+        vertical-align: top;
+        padding: 5px;
+        img {
+            display: block;
+            max-width: 100%;
+            margin: 0 auto;
+        }
+    }
+    .goods-info-box {
+        padding: 5px;
+        width: 65%;
+        font-size: 14px;
+        display: inline-block;
+        vertical-align: top;
+        position: relative;
+        .goods-title {
+            font-size: 15px;
+            letter-spacing: 1px;
+        }
+        .goods-dev-box {
+            margin-top: 10px;
+            font-size: 0;
+            .goods-dev {
+                border-radius: 25px;
+                width: 55%;
+                background-color: #f79090;
+                line-height: 20px;
+                height: 20px;
+                position: relative;
+                display: inline-block;
+                font-size: 14px;
+                vertical-align: middle;
+                .goods-dev-title {
+                    position: absolute;
+                    color: #fff;
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+                .goods-dev-cube {
+                    background-color: #E02E24;
+                    height: 20px;
+                    border-radius: 25px;
+                }
+            }
+            .goods-dev-label {
+                vertical-align: middle;
+                font-size: 12px;
+                width: 45%;
+                display: inline-block;
+                color: #E02E24;
+                padding-left: 10px;
+            }
+        }
+        .goods-footer {
+            width: 100%;
+            margin-top: 25px;
+            .goods-price-box {
+                display: inline-block;
+                height: 35px;
+                line-height: 35px;
+                .goods-price {
+                    display: inline-block;
+                    font-size: 18px;
+                    color: #db3d3c;
+                }
+                .goods-price-origin {
+                    display: inline-block;
+                    font-size: 12px;
+                    color: #777;
+                }
+            }
+            .goods-btn {
+                background-color: #db3d3c;
+                color: #fff;
+                display: inline-block;
+                float: right;
+                border-radius: 5px;
+                line-height: 1;
+                padding: 10px;
+                * {
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+}

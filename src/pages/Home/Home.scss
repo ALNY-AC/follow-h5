@@ -1,0 +1,147 @@
+$style-color:#16242D;
+.sw {
+    height: 200px;
+    background-color: #333;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    line-height: 200px;
+}
+
+#Home {
+    padding-bottom: 50px;
+    padding-top: 46px;
+    .left-icon {
+        width: 1.1rem;
+    }
+    .location-icon {
+        width: 1.6rem;
+    }
+}
+
+.view-test {
+    position: relative;
+}
+
+.search-mask {
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 75%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 43px;
+}
+
+#Home /deep/ {
+    .van-tabs__wrap--page-top {}
+    .van-nav-bar__right {
+        right: 0;
+    }
+    .van-nav-bar__left {
+        left: 0;
+    }
+    .van-tabs--line {
+        padding-top: 32px;
+        .van-tabs__wrap {
+            position: fixed;
+            top: 46px;
+            height: 32px;
+        }
+    }
+    .van-tab {
+        line-height: 32px;
+        span {
+            font-size: 15px;
+        }
+    }
+    .van-nav-bar__title {}
+    .van-search {
+        border-radius: 5px;
+        background-color: transparent !important;
+    }
+    .van-nav-bar .van-nav-bar__title {
+        overflow: visible;
+        max-width: 80%;
+        margin-left: 0.7rem;
+    }
+    .van-search .van-cell {}
+    .van-search .van-cell {
+        background-color: #eee;
+        border: none;
+    }
+    .van-search .van-cell * {
+        border: none;
+        background-color: #eee;
+    }
+    .van-search .van-cell .van-icon {
+        color: #999;
+    }
+    .van-tab {
+        background-color: #fff;
+        color: #425058;
+    }
+    .van-tabs__line {
+        background-color: #16242d;
+        height: 3px;
+        display: block;
+        border-radius: 50px !important;
+    }
+    .van-tab--active {
+        color: #16242d;
+        font-weight: 500;
+        font-size: 16px;
+    }
+    .van-tab:active {
+        background-color: #fff;
+    }
+    .van-tabs__nav-bar {
+        background-color: #fff;
+        border-radius: 3px;
+        margin-bottom: 3px;
+        height: 2px;
+    }
+    .van-tabs__wrap::after {
+        border: none !important;
+    }
+    .van-tab__pane {
+        // min-height: 100vh;
+    }
+}
+
+.first-loading {
+    text-align: center;
+    color: #777;
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    .loading {
+        display: inline-block;
+    }
+}
+
+.slide-fade-enter-active {
+    transition: all .8s;
+}
+
+.slide-fade-leave-active {
+    transition: all .8s;
+}
+
+.slide-fade-enter,
+.slide-fade-leave-to {
+    opacity: 0;
+    height: 0;
+    transform: translateY(-10px);
+}
+
+.shout-price-in {
+    font-size: 50px;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 8px 0;
+}
+
+.shout-price-in img {
+    width: 100%;
+}

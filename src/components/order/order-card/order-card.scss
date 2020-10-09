@@ -1,0 +1,26 @@
+.order-card {
+    background-color: #ffffff;
+    font-size: 14px;
+    position: relative;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    .order-card-head {
+        background-color: #fff;
+        line-height: 1;
+        padding: 15px 10px;
+        border-bottom: solid 1px #ddd;
+        .order-card-title {
+            .order-state {
+                float: right;
+            }
+        }
+    }
+    .order-card-body {
+        position: relative;
+    }
+    .order-card-footer {
+        * {
+            color: #777;
+        }
+    }
+}

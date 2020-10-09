@@ -1,0 +1,52 @@
+.fixed-tool {
+    position: fixed;
+    bottom: 100px;
+    background-color: rgba($color: #000000, $alpha: 0.7);
+    white-space: nowrap;
+    padding: 10px 0;
+    line-height: 1;
+    display: block;
+    font-size: 0;
+    z-index: 200;
+    border-radius: 100%;
+    opacity: 1;
+    .fixed-tool-item {
+        position: relative;
+        color: #fff;
+        display: inline-block;
+        border-right: solid 1px #777;
+        font-size: 20px;
+        padding: 0 15px;
+        text-align: center;
+        line-height: 1;
+        &:last-child {
+            border-right: none;
+        }
+    }
+    &.left {
+        left: 30px;
+    }
+    &.right {
+        right: 30px;
+    }
+}
+
+.left-enter-active,
+.left-leave-active {
+    transition: all 0.3s;
+}
+
+.left-enter,
+.left-leave-to {
+    opacity: 0;
+}
+
+.right-enter-active,
+.right-leave-active {
+    transition: all 0.3s;
+}
+
+.right-enter,
+.right-leave-to {
+    opacity: 0;
+}

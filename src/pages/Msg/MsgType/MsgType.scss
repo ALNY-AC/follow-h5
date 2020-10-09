@@ -1,0 +1,30 @@
+#MsgType {
+    padding: 50px 0;
+    .type-list {
+        .type-body {
+            .type-item {
+                background-color: #ffffff;
+                border-bottom: solid 1px #f6f6f6;
+                padding: 10px;
+                * {
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+                .icon {
+                    display: inline-block;
+                    vertical-align: middle;
+                    font-size: 30px;
+                    color: gray;
+                    padding: 0 10px;
+                    line-height: 50px;
+                }
+                .title {
+                    display: inline-block;
+                    vertical-align: middle;
+                    font-size: 18px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}

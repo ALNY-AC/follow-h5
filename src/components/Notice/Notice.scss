@@ -1,0 +1,44 @@
+.notice {
+    position: relative;
+    $left: 80px;
+    background-color: #ffffff;
+    padding: 10px 0;
+    .notice-body {
+        position: relative;
+        overflow: hidden;
+        height: 20px;
+        line-height: 20px;
+        .notice-logo {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            padding-left: 16px;
+            padding-right: 8px;
+            font-weight: bold;
+            border-right: solid 1px #777;
+            font-size: 17px;
+        }
+        .label-box {
+            position: absolute;
+            left: $left+16px;
+            top: -1px;
+        }
+        .notice-list {
+            position: absolute;
+            left: 155px;
+            right: 0;
+            text-align: left;
+            white-space: nowrap;
+            transition: all 0.3s;
+            .notice-item {
+                position: relative;
+                width: 100%;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                font-size: 14px !important;
+                position: relative;
+            }
+        }
+    }
+}

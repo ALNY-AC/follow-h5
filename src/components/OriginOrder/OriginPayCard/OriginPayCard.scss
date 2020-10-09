@@ -1,0 +1,102 @@
+.origin-pay-card {
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    .origin-order-card-body {
+        .card-header {
+            white-space: nowrap;
+            margin-bottom: 8px;
+            .pay-type-label {
+                display: inline-block;
+                vertical-align: middle;
+                background-color: rgb(250, 163, 32);
+                border-radius: 3px;
+                color: #fff;
+                display: inline-block;
+                height: 18px;
+                width: 18px;
+                text-align: center;
+                font-size: 13px;
+                vertical-align: middle;
+                margin-right: 5px;
+            }
+            .time {
+                display: inline-block;
+                vertical-align: middle;
+            }
+            .state {
+                // color: rgb(240, 57, 57);
+                display: inline-block;
+                vertical-align: middle;
+                float: right;
+            }
+        }
+        .card-body {
+            .card-goods-card {
+                border-bottom: solid 1px #f6f6f6;
+                padding: 10px 0;
+                &:last-child {
+                    border-bottom: none;
+                }
+                .goods-img {
+                    display: block;
+                    max-width: 100%;
+                }
+                .goods-info-box {
+                    padding: 0 10px;
+                    font-size: 14px;
+                    .goods-title {
+                        display: block;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 2;
+                        -webkit-box-orient: vertical;
+                        margin-bottom: 5px;
+                    }
+                    .goods-sku-info {
+                        color: #bbb;
+                        font-size: 13px;
+                    }
+                }
+                .info-box {
+                    text-align: right;
+                    white-space: nowrap;
+                    .price {}
+                    .num {}
+                    .maid {
+                        .maid-label {
+                            font-size: 11px;
+                            color: rgb(255, 153, 0);
+                            margin-right: 2px;
+                        }
+                        span {
+                            display: inline-block;
+                            vertical-align: middle;
+                        }
+                    }
+                }
+            }
+        }
+        .card-footer {
+            border-top: solid 1px #f6f6f6;
+            text-align: right;
+            .card-footer-tool {
+                display: inline-block;
+                font-size: 14px;
+                .price {
+                    color: rgb(240, 57, 57);
+                }
+                .other {
+                    color: #777;
+                }
+            }
+        }
+    }
+    .pay-btn {
+        background-color: #f03939;
+        border: none;
+        color: #fff;
+    }
+}

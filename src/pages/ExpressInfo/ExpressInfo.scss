@@ -1,0 +1,25 @@
+#ExpressInfo {
+    padding-top: 50px;
+    ;
+    .empty {
+        text-align: center;
+        color: #777;
+    }
+}
+.blank{
+  background: #fff;
+  text-align: center;
+  margin-top: -3px;
+  padding-bottom: 64px;
+  height: calc(100vh - 50px);
+  &_img{
+    width: 45%;
+  }
+  &_title{
+    color: #C8C8C8;
+    font-size: 14px;
+    display: block;
+    line-height: 14px;
+    margin-top: 3px;
+  }
+}

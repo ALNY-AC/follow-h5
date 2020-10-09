@@ -1,0 +1,67 @@
+.shop-card {
+    text-align: center;
+    color: #fff;
+    white-space: normal;
+    font-size: 14px;
+    position: relative;
+    display: block;
+    padding: 15px 25px;
+    padding-top: 0;
+    background-color: #ffffff;
+    &:last-child {
+        margin-right: 15px;
+    }
+    * {
+        box-sizing: border-box;
+    }
+    .shop-card-bg {
+        // background-color: rgba($color: #e54f56, $alpha: 0.5);
+        width: 80%;
+        height: 30px;
+        position: absolute;
+        bottom: 18px;
+        left: 50%;
+        transform: translateX(-50%);
+        box-shadow: 0 10px 15px 0 rgba($color: #F96A5A, $alpha: 0.5);
+    }
+    .shop-card-body {
+        $opacity: 0.9;
+        box-shadow: 0 0 10px rgba($color: #e54f56, $alpha: 0.3);
+        background-image: linear-gradient(to bottom right, #F86F5C, #FB283E);
+        border-radius: 8px;
+        margin: 0 auto;
+        height: 100%;
+        text-align: center;
+        padding: 20px;
+        .card-title {
+            opacity: $opacity;
+        }
+        .card-value {
+            font-size: 35px;
+            font-weight: bold;
+            line-height: 1;
+            padding: 25px 0;
+        }
+        .card-footer {
+            .card-tool {
+                white-space: nowrap;
+                .card-tool-item {
+                    display: inline-block;
+                    text-align: center;
+                    opacity: $opacity;
+                    width: 33.33%;
+                    .tool-title {
+                        font-size: 11px;
+                    }
+                }
+                .line {
+                    display: inline-block;
+                    width: 0;
+                    border-left: solid 1px #eee;
+                    height: 20px;
+                    opacity: $opacity;
+                }
+            }
+        }
+    }
+}

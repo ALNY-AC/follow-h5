@@ -1,0 +1,22 @@
+.coupon-list {
+    .coupon-body {
+        padding: 10px;
+    }
+}
+.blank{
+  background: #fff;
+  text-align: center;
+  margin-top: -3px;
+  padding-bottom: 64px;
+  height: calc(100vh - 88px);
+  &_img{
+    width: 45%;
+  }
+  &_title{
+    color: #C8C8C8;
+    font-size: 14px;
+    display: block;
+    line-height: 14px;
+    margin-top: 3px;
+  }
+}

@@ -1,0 +1,54 @@
+$style-color:#16242D;
+$size: 50px;
+.o-toast {
+    position: fixed;
+    z-index: 2048;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    line-height: 1;
+    background-color: #323232;
+    font-size: 14px;
+    padding: 0 15px;
+    height: $size;
+    line-height: $size;
+    .o-toast-title {
+        color: #fff;
+        display: inline-block;
+        .icon {
+            padding-right: 5px;
+        }
+    }
+    .o-toast-tool-list {
+        float: right;
+        color: #09bb07;
+    }
+    &.o-toast-error {
+        background-color: #e64340;
+        .o-toast-tool-list {
+            color: #fff;
+        }
+    }
+    &.o-toast-success {
+        background-color: #09bb07;
+        .o-toast-tool-list {
+            color: #fff;
+        }
+    }
+    &.o-toast-warning {
+        background-color: #E6A23C;
+        .o-toast-tool-list {
+            color: #fff;
+        }
+    }
+}
+
+.o-toast-enter-active,
+.o-toast-leave-active {
+    transition: all .3s;
+}
+
+.o-toast-enter,
+.o-toast-leave-to {
+    transform: translate3d(0, $size, 0);
+}

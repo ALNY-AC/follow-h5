@@ -1,0 +1,58 @@
+.get-code {
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+    .get-code-panel {
+        padding: 0 35px;
+        padding-top: 75px;
+        .get-code-panel-header {
+            .title {
+                font-size: 23px;
+                color: #444;
+                line-height: 1;
+                padding-bottom: 20px;
+            }
+            .message {
+                color: #777;
+                font-size: 15px;
+                line-height: 1;
+            }
+        }
+        .input-panel {
+            margin-top: 80px;
+            .input-box {
+                width: 100%;
+                .s-input {
+                    border: none;
+                    border-bottom: 1px solid #ddd;
+                    padding: 0;
+                    display: inline-block;
+                    width: 100%;
+                    height: 50px;
+                    line-height: 50px;
+                }
+                margin-bottom: 10px;
+            }
+            .btn-box {
+                display: block;
+                margin-top: 35px;
+                margin-bottom: 30px;
+            }
+            .agreement-box {
+                font-size: 11px;
+                color: #777;
+                .checkbox {}
+                .agreement {
+                    color: #444;
+                }
+            }
+        }
+    }
+    .cancel-box {
+        position: fixed;
+        right: 35px;
+        bottom: 35px;
+        text-align: right;
+        font-size: 11px;
+    }
+}

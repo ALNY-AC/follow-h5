@@ -1,0 +1,17 @@
+#OriginOrderList {
+    .no-pay {
+        text-align: center;
+        color: #777;
+        padding-top: 5px;
+        padding-bottom: 3px;
+        background-color: #ffffff;
+        margin-top: 8px;
+        position: relative;
+        * {}
+        .go-pay {
+            position: absolute;
+            right: 10px;
+            top: 5px;
+        }
+    }
+}

@@ -1,0 +1,38 @@
+#HelpList {
+    padding: 50px 0;
+    .help-body {
+        background-color: #ffffff;
+        .help-class-row {
+            border-bottom: solid 1px #f6f6f6;
+            padding: 10px 0;
+            padding-left: 10px;
+            .help-class-item {
+                white-space: nowrap;
+                * {
+                    vertical-align: middle;
+                }
+                .icon {
+                    display: inline-block;
+                    font-size: 20px;
+                    margin-right: 5px;
+                }
+                .title {
+                    font-size: 16px;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+    .zxff {
+        padding: 10px 0;
+        text-align: center;
+        background-color: #ffffff;
+        margin-top: 20px;
+        .icon {
+            font-size: 25px;
+        }
+        .title {
+            font-size: 14px;
+        }
+    }
+}

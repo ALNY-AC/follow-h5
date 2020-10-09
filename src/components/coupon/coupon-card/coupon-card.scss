@@ -1,0 +1,86 @@
+.coupon-card {
+    background-color: #fef6f3;
+    padding: 0 30px;
+    font-size: 12px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    * {
+        box-sizing: border-box;
+    }
+    margin-bottom: 10px;
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+    .coupon-card-body {
+        white-space: nowrap;
+        color: #e44b00;
+        padding: 5px 0;
+        .money-box {
+            white-space: normal;
+            display: inline-block;
+            width: 50%;
+            vertical-align: middle;
+            text-align: right;
+            .money {
+                display: inline-block;
+                font-size: 30px;
+                font-weight: bold;
+            }
+            .money-icon {
+                display: inline-block;
+                font-weight: bold;
+                font-size: 20px;
+            }
+        }
+        .info-box {
+            white-space: normal;
+            width: 50%;
+            display: inline-block;
+            vertical-align: middle;
+            .info {
+                font-size: 12px;
+            }
+            .time {
+                font-size: 12px;
+                font-weight: 700;
+            }
+        }
+    }
+    .cir {
+        $size: 10px;
+        & {
+            width: $size;
+            height: $size;
+            background-color: #f6f6f6;
+            position: absolute;
+            top: -$size/2;
+        }
+        &-box {
+            position: relative;
+        }
+        $trx:60%;
+        &-1 {
+            left: 0;
+            transform: translateX(-$trx) rotateZ(45deg);
+        }
+        &-2 {
+            right: 0;
+            transform: translateX( $trx) rotateZ(45deg);
+        }
+    }
+    .footer {
+        padding: 5px 0;
+        border-top: 1px solid #fadfd2;
+        font-size:12px;
+        color:#666;
+    }
+    &.coupon-guoqi {
+        .coupon-card-body {
+            color:#c8c8c8;
+        }
+        .footer {
+            border-top: 1px solid #eee !important;
+            color:#c8c8c8;
+        }
+    }
+}

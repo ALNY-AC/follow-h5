@@ -1,0 +1,74 @@
+.second-kill-inlet {
+    box-sizing: border-box;
+    * {
+        box-sizing: border-box;
+    }
+    width: 100%;
+    background-color: #ffffff;
+    padding: 5px;
+    padding-bottom: 0;
+    .header {
+        font-size: 0;
+        margin-bottom: 15px;
+        padding: 5px;
+        .title {
+            color: #db3d3c;
+            font-size: 16px;
+            display: inline-block;
+            width: 50%;
+        }
+        .time {
+            width: 50%;
+            display: inline-block;
+            font-size: 0;
+            text-align: right;
+            .time-label {
+                line-height: 1;
+                display: inline-block;
+                background-color: #db3d3c;
+                color: #fff;
+                padding: 3px;
+                border-radius: 4px;
+                font-size: 13px;
+            }
+            .time-colon {
+                font-size: 13px;
+                line-height: 1;
+                display: inline-block;
+                color: #db3d3c;
+            }
+        }
+    }
+    .goods-list {
+        width: 100%;
+        font-size: 0;
+        .goods-card {
+            display: inline-block;
+            width: 50%;
+            .goods-header {
+                padding: 5px;
+                img {
+                    max-width: 100%;
+                    display: block;
+                }
+            }
+            .goods-price-box {
+                padding: 5px;
+                padding-top: 13px;
+                .goods-price {
+                    font-size: 14px;
+                    color: #db3d3c;
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+                .goods-origin {
+                    font-size: 13px;
+                    color: #777;
+                    float: right;
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+}

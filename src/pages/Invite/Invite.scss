@@ -1,0 +1,58 @@
+img {
+    position: relative;
+    max-width: 10rem;
+    display: block;
+    z-index: 1;
+}
+
+#Invite {
+    background-color: #232321;
+    height: 100vh;
+    box-sizing: border-box;
+    * {
+        box-sizing: border-box;
+    }
+    img {
+        pointer-events: none;
+    }
+    .box {
+        position: relative;
+        padding-top: 1rem;
+        background-color: #232321;
+        top: 46px;
+        .bg-icon {
+            position: absolute;
+            top: 0;
+            width: 10rem;
+            img {
+                display: block;
+            }
+        }
+        .panel {
+            width: 10rem;
+            img {
+                display: block;
+                width: 8rem;
+                margin: 0 auto;
+            }
+        }
+        .btn {
+            position: absolute;
+            top: 10rem;
+            width: 10rem;
+            img {
+                display: block;
+                width: 5rem;
+                margin: 0 auto;
+            }
+        }
+        .bottom-logo {
+            width: 10rem;
+            img {
+                width: 4rem;
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+}

@@ -1,0 +1,134 @@
+#PhoneLogin {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+$color: #444;
+.input-pabel {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 150px;
+    position: relative;
+    .info {
+        color: $color;
+        padding: 10px 0;
+    }
+}
+
+.simple-input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.simple-input-box {
+    $color: #aaa;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid $color;
+    padding: 5px 0;
+    margin-top: 15px;
+    position: relative;
+    .icon {
+        display: inline-block;
+        text-align: center;
+        padding-right: 10px;
+        color: $color;
+    }
+    .simple-input {
+        display: inline-block;
+        color: #777;
+        padding: 15px;
+        width: 100%;
+    }
+    .simple-btn {
+        color: #232321;
+        float: right;
+        position: relative;
+        top: -8px;
+        border-radius: 3px;
+        padding: 6px 10px;
+        line-height: 1;
+        font-size: 12px;
+    }
+}
+
+.login-btn {
+    color: #fff;
+    background-color: #4e4e4d;
+    border: none;
+    box-shadow: 0px 5px 10px 1px rgba($color: #4e4e4d, $alpha: 0.3);
+    border-radius: 3px;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 10px 20px;
+}
+
+.agreement-box {
+    position: fixed;
+    bottom: 20px;
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    .agreement-hig {
+        color: #232321;
+    }
+}
+
+.code-panel {
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    * {
+        box-sizing: border-box;
+    }
+    .code-header {
+        width: 280px;
+        margin: 0 auto;
+        display: block;
+        padding: 10px;
+        margin-top: 50px;
+        .code-title {}
+        .code-info {
+            font-size: 14px;
+            color: #777;
+        }
+    }
+    .code-body {
+        white-space: nowrap;
+        padding: 20px;
+        font-size: 0;
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+        .code-input-box {
+            display: inline-block;
+            padding: 0 10px;
+        }
+        .code-input {
+            text-align: center;
+            font-size: 18px;
+            display: inline-block;
+            border: solid 1px #aaa;
+            border-radius: 4px;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            padding: 0;
+            color: #aaa;
+            outline: none;
+            box-shadow: none;
+        }
+    }
+    .code-footer {
+        padding: 10px;
+        width: 280px;
+        margin: 0 auto;
+        display: block;
+    }
+}
+

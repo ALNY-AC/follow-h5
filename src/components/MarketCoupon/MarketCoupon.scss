@@ -1,0 +1,24 @@
+.market-coupon {
+    position: fixed;
+    z-index: 2001;
+    .market-box {
+        background-color: #ff0000;
+        .market-body {
+            text-align: center;
+            img {
+                max-width: 60vw;
+                max-height: 95vh;
+            }
+            .close {
+                font-size: 35px;
+                color: #ccc;
+            }
+        }
+    }
+}
+
+.market-coupon /deep/ {
+    .van-popup {
+        background-color: transparent;
+    }
+}

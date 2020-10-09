@@ -1,0 +1,32 @@
+.shop-paper-list {
+    background-color: #ffffff;
+    padding: 0 15px;
+    margin-bottom: 20px;
+    .shop-list-head {
+        padding: 20px 0;
+        .shop-list-title {
+            font-size: 15px;
+            line-height: 1;
+            .left {
+                * {
+                    vertical-align: middle;
+                }
+                .title {
+                    font-size: 13px;
+                    padding-right: 5px;
+                }
+                .icon {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    .shop-list-body {
+        white-space: nowrap;
+        overflow: auto;
+        padding-bottom: 10px;
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+#Search /deep/ {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #f6f6f6;
+    .van-search {
+        padding: 5px 10px;
+        padding-right: 0;
+    }
+    .van-search__action {}
+    .van-search__action-text {
+        color: #999;
+    }
+    .van-search .van-cell {
+        background-color: #EEE;
+        border: none;
+        & * {
+            border: none;
+            background-color: #EEE;
+            color: #343434;
+        }
+    }
+    .van-search__cancel {
+        color: #666;
+        font-size: 13px;
+    }
+    .van-search__cancel:active {
+        background-color: transparent;
+    }
+}

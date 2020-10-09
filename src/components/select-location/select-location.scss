@@ -1,0 +1,12 @@
+.select-location {
+    display: block;
+    text-align: center;
+    font-size: 11px;
+    .title {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 100%;
+        display: block;
+    }
+    .popup {}
+}

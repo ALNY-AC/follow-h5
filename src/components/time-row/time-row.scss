@@ -1,0 +1,62 @@
+
+.time-label-box {
+    display: flex;
+    .time-label {
+        background: #1A2A35;
+        color: #FFF;
+        border-radius: 2px;
+        padding: 0 5px;
+    }
+}
+        
+
+.kill_time{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    &_left{
+        background: #1A2A35;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        position: relative;
+        flex:1;
+        &_img{
+            height: 42%;
+            position: absolute;
+            top: 29%;
+            left: 10px;
+        }
+    }
+    &_right{
+        background: #FFFF00;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        white-space:nowrap;
+        font-size: 11px;
+        padding: 0 20px 0 10px ;
+        &_time{
+            background: #1A2A35;
+            color: #FFF;
+            border-radius: 2px;
+            padding: 0 5px;
+        }
+        span{
+            margin: 0 2px;
+        }
+    }
+    &_middle{
+        height: 100%;
+        &_img{
+            height:100%;
+            margin-left:-0.8px;
+        }
+    }
+}
+
+
+.bolder{
+    font-weight: bolder;
+}

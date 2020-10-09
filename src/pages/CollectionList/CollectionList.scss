@@ -1,0 +1,65 @@
+#CollectionList {
+    padding-top: 50px;
+}
+
+#CollectionList /deep/ {
+    .card-goods {
+        padding: 10px 0;
+        background-color: #fff;
+        .card-goods__item {
+            border-bottom: solid 1px #ddd;
+            background-color: #fff;
+        }
+        &__item {
+            position: relative;
+            background-color: #fff;
+            .van-checkbox__label {
+                width: 100%;
+                padding: 0 10px 0 15px;
+                box-sizing: border-box;
+            }
+            .van-checkbox__icon {
+                top: 50%;
+                left: 10px;
+                z-index: 1;
+                position: absolute;
+                margin-top: -10px;
+            }
+            .van-card__price {
+                color: #f44;
+            }
+        }
+    }
+}
+
+.van-swipe-cell-btn {
+    color: #fff;
+    height: 100%;
+    line-height: 100px;
+    text-align: center;
+    font-size: 20px;
+    width: 65px;
+}
+
+.bag-item {
+    background-color: #ffffff;
+    border-bottom: solid 1px #ddd;
+    margin: 5px 10px;
+    border-radius: 5px;
+}
+.blank{
+  background: #fff;
+  text-align: center;
+  margin-top: -4px;
+  padding-bottom: 64px;
+  &_img{
+    width: 45%;
+  }
+  &_title{
+    color: #C8C8C8;
+    font-size: 14px;
+    display: block;
+    line-height: 14px;
+    margin-top: 3px;
+  }
+}

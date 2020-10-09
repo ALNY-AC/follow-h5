@@ -1,0 +1,76 @@
+.user-order {
+    box-sizing: border-box;
+    * {
+        box-sizing: border-box;
+    }
+    font-size: 0;
+    background-color: #ffffff;
+    border-bottom: solid 1px #eee;
+    overflow: hidden;
+    margin-bottom: 8px;
+    position: relative;
+    z-index: 1;
+    // border-radius: 8px;
+    // margin: 8px 10px;
+    .user-order-head {
+        font-size: 14px;
+        display: block;
+        padding: 10px 20px;
+        border-top: solid 1px #eee;
+        .user-order-title {
+            display: inline-block;
+            font-weight: bold;
+        }
+        .tool {
+            * {
+                vertical-align: middle;
+                fill: #777;
+            }
+        }
+    }
+    .order-nav-list {
+        border-top: solid 1px #eee;
+        .order-nav-list-item {
+            padding: 20px 0;
+            position: relative;
+            width: 25%;
+            font-size: 14px;
+            color: #4d4d4d;
+            text-align: center;
+            vertical-align: top;
+            display: inline-block;
+            .nav-list-icon {
+                margin-bottom: 3px;
+                .iconfont {
+                    font-size: 30px;
+                    line-height: 1;
+                    height: 30px;
+                    line-height: 30px;
+                    max-height: 30px;
+                    display: block;
+                }
+            }
+            .nav-list-title {
+                line-height: 1;
+            }
+            &.tp1 {}
+            &.tp2 {
+                .iconfont {
+                    font-size: 28px;
+                }
+            }
+            &.tp3 {}
+            &.tp4 {}
+            &.tp5 {
+                .iconfont {
+                    font-size: 27px;
+                }
+            }
+        }
+    }
+}
+
+.order_badge /deep/ {
+    top: 15px !important;
+    right: 10px !important;
+}

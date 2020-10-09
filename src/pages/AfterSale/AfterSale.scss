@@ -1,0 +1,100 @@
+#AfterSale {
+    font-family: '微软雅黑';
+    box-sizing: border-box;
+    * {
+        box-sizing: border-box;
+    }
+    .goods {
+        background-color: #ffffff;
+        margin-bottom: 8px;
+        padding: 10px;
+        position: relative;
+        .goods-img {
+            display: inline-block;
+            vertical-align: top;
+            img {
+                width: 70px;
+                height: 70px;
+                display: inline-block;
+                vertical-align: top;
+            }
+        }
+        .goods-info {
+            display: inline-block;
+            vertical-align: top;
+            position: absolute;
+            right: 0;
+            left: 85px;
+            white-space: normal;
+            .goods-title {
+                display: inline-block;
+            }
+            .goods-sku {
+                display: block;
+                font-size: 11px;
+                color: #777;
+            }
+        }
+    }
+    .refund {
+        padding: 8px 15px;
+        font-size: 13px;
+        color: #777;
+    }
+}
+
+$size:70px;
+.img-list {
+    font-size: 0;
+    padding: 10px;
+    .img-card {
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background-color: #dddddd;
+        position: relative;
+        margin-bottom: 15px;
+        display: inline-block;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: $size;
+        height: $size;
+        border-radius: 3px;
+    }
+    .van-uploader {
+        display: inline-block;
+        vertical-align: top;
+    }
+    .add-img {
+        width: $size;
+        height: $size;
+        text-align: center;
+        padding: 0;
+        line-height: $size;
+        border-radius: 3px;
+        border: solid 1px #ddd;
+        font-size: 15px;
+        display: inline-block;
+        vertical-align: top;
+        position: relative;
+        color: #777;
+        .title {
+            font-size: 1px;
+            position: absolute;
+            top: 15px;
+            text-align: center;
+            width: 100%;
+        }
+    }
+    .del {
+        position: absolute;
+        display: inline-block;
+        line-height: 70px;
+        height: 70px;
+        width: 70px;
+        font-size: 20px;
+        color: #fff;
+        text-align: center;
+        background-color: rgba($color: #000000, $alpha: 0.2);
+    }
+}

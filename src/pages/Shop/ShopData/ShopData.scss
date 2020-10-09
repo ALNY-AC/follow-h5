@@ -1,0 +1,26 @@
+#ShopData {
+    .user-head {
+        padding: 15px;
+        background-color: #ffffff;
+        margin-bottom: 8px;
+        img {
+            display: inline-block;
+            vertical-align: middle;
+            border-radius: 5px;
+            width: 55px;
+            height: 55px;
+        }
+        .user-info-box {
+            vertical-align: top;
+            display: inline-block;
+            margin-left: 5px;
+            .user-name {
+                display: block;
+            }
+            .vip {
+                display: block;
+                color: #777;
+            }
+        }
+    }
+}

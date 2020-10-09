@@ -1,0 +1,12 @@
+.shop-card-list {
+    white-space: nowrap;
+    overflow: auto;
+    font-size: 0;
+    padding-bottom: 40px;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+    .shop-card {
+        display: inline-block;
+    }
+}

@@ -1,0 +1,120 @@
+.address-list /deep/ {
+    padding: 50px 0;
+    background-color: #f6f6f6;
+    min-height: 100vh;
+    padding-top: 56px;
+    .van-address-list__group {
+        background-color: #f0f0f0 !important;
+    }
+    .address-card {
+        background-color: #fff;
+        white-space: nowrap;
+        font-size: 0;
+        box-sizing: border-box;
+        padding: 10px;
+        position: relative;
+        border-bottom: 1px solid #eee;
+        * {
+            box-sizing: border-box;
+        }
+        .address-left-box {
+            display: inline-block;
+            font-size: 14px;
+            vertical-align: top;
+            white-space: normal;
+            width: 2.5rem;
+            .address-left-box-body {
+                .address-name {
+                    margin-bottom: 5px;
+                }
+                .address-label {
+                    display: inline-block;
+                    color: #f00;
+                    font-size: 12px;
+                    border: solid 1px #f00;
+                    border-radius: 3px;
+                    line-height: 1;
+                    padding: 1px;
+                }
+            }
+        }
+        .address-center-box {
+            display: inline-block;
+            font-size: 14px;
+            vertical-align: top;
+            white-space: normal;
+            width: 6.5rem;
+            .address-center-box-body {
+                .address-tel {
+                    margin-bottom: 10px;
+                }
+                .address-location {
+                    color: #aaa;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 2;
+                    overflow: hidden;
+                    margin-bottom: 10px;
+                    line-height: 1.2;
+                }
+                .address-id-card {
+                    color: #aaa;
+                }
+            }
+        }
+        .address-right-box {
+            display: inline-block;
+            font-size: 14px;
+            vertical-align: top;
+            white-space: normal;
+            width: 1rem;
+            text-align: center;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            .address-right-box-body {
+                font-size: 20px;
+                display: inline-block;
+                vertical-align: middle;
+                line-height: 78px;
+                color: #aaa;
+            }
+        }
+    }
+    .add-btn {
+        position: fixed;
+        line-height: 50px;
+        height: 50px;
+        text-align: center;
+        color: #db3f3f;
+        font-size: 16px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        border-top: solid 1px #ddd;
+        background-color: #ffffff;
+        .icon {
+            display: inline-block;
+            margin-right: 5px;
+        }
+    }
+}
+.blank{
+  background: #fff;
+  text-align: center;
+  margin-top: -3px;
+  padding-bottom: 64px;
+  height: calc(100vh - 100px);
+  margin-top: -10px;
+  &_img{
+    width: 45%;
+  }
+  &_title{
+    color: #C8C8C8;
+    font-size: 14px;
+    display: block;
+    line-height: 14px;
+    margin-top: 3px;
+  }
+}

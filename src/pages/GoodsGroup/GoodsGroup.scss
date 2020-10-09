@@ -1,0 +1,90 @@
+#GoodsGroup {
+    padding-top: 46px;
+    .empty {
+        padding: 10px 0;
+        color: #777;
+        text-align: center;
+    }
+    .item {
+        box-sizing: border-box;
+        padding: 5px;
+        display: block;
+        position: relative;
+        .item-content {
+            min-height: 345px;
+            background-color: #ffffff;
+            position: relative;
+            box-shadow: 0 2px 1px rgba($color: #000000, $alpha: 0.1);
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .goods-head {
+            img {
+                border-radius: 4px 4px 0 0;
+                max-width: 100%;
+                display: block;
+                margin: 0 auto;
+            }
+            display: block;
+        }
+        .goods-info-box {
+            padding: 10px;
+            display: block;
+            .goods-title {
+                display: block;
+                margin-bottom: 3px;
+                .title {
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 1;
+                    overflow: hidden;
+                }
+            }
+            .goods-sub-title {
+                margin-bottom: 3px;
+                word-break: break-all;
+                white-space: pre-wrap;
+                /*====*/
+                color: #888;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 1;
+                overflow: hidden;
+                .title {}
+            }
+            .goods-price {
+                margin-bottom: 3px;
+                font-size: 16px;
+                .price {
+                    color: #FC0000;
+                }
+            }
+            .goods-label {
+                background-color: #fc0000;
+                color: #fff;
+                display: inline-block;
+                line-height: 1;
+                padding: 3px;
+                font-size: 11px;
+                border-radius: 3px;
+                margin-right: 5px;
+                margin-bottom: 5px;
+            }
+        }
+        .goods-btn-list {
+            text-align: right;
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+            .goods-btn-item {
+                display: inline-block;
+                border: solid 1px #D02C52;
+                color: #D02C52;
+                line-height: 1;
+                border-radius: 3px;
+                padding: 5px 15px;
+            }
+        }
+    }
+}
